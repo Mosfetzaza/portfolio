@@ -28,7 +28,7 @@ const About = () => {
             <div className="flex justify-center mb-4">
               <img
                 src="/profiles/pro-1.jpg"
-                alt="Sirayut Petchanon"
+                alt="Sirayu Petcharanon"
                 className="w-32 h-32 rounded-full object-cover"
               />
             </div>
