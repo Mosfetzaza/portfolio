@@ -26,7 +26,7 @@ const About = () => {
           {/* Profile Card 1 (Your profile) */}
           <div className="bg-[#14102C] p-6 md:p-8 shadow-lg transition-all duration-300">
             <div className="flex justify-center mb-4">
-              <imgage
+              <img
                 src="/profiles/pro1.jpg"
                 alt="Sirayut Petchanon"
                 className="w-32 h-32 rounded-full object-cover"
@@ -70,7 +70,7 @@ const About = () => {
           {/* Profile Card 2 (Boonrit's profile) */}
           <div className="bg-[#14102C] p-6 md:p-8 shadow-lg transition-all duration-300">
             <div className="flex justify-center mb-4">
-              <imgage
+              <img
                 src="/profiles/pro2.jpg"
                 alt="Boonrit Thadnoy"
                 className="w-32 h-32 rounded-full object-cover"
