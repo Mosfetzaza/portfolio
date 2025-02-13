@@ -48,7 +48,7 @@ const About = () => {
             {/* Read More button */}
             <button
               onClick={() => handleReadMore(
-                'Sirayu Petchara  non\n\n' +
+                'Sirayu Petcharanon\n\n' +
                 '🎓 Education\n' +
                 '• Vocational Certificate in Information and Communication Technology\n' +
                 '• Vocational Certificate in Information Technology\n\n' +
