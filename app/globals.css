@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Animations for Moving Background Circles */
+@keyframes moveBgCircle1 {
+    0% {
+      transform: translateX(0) translateY(0);
+    }
+    50% {
+      transform: translateX(30px) translateY(-30px);
+    }
+    100% {
+      transform: translateX(0) translateY(0);
+    }
+  }
+  
+  @keyframes moveBgCircle2 {
+    0% {
+      transform: translateX(0) translateY(0);
+    }
+    50% {
+      transform: translateX(-40px) translateY(40px);
+    }
+    100% {
+      transform: translateX(0) translateY(0);
+    }
+  }
+  
+  @keyframes moveBgCircle3 {
+    0% {
+      transform: translateX(0) translateY(0);
+    }
+    50% {
+      transform: translateX(50px) translateY(-20px);
+    }
+    100% {
+      transform: translateX(0) translateY(0);
+    }
+  }
+  
+  /* Apply animation to the circles */
+  .animate-moveBgCircle1 {
+    animation: moveBgCircle1 10s ease-in-out infinite;
+  }
+  
+  .animate-moveBgCircle2 {
+    animation: moveBgCircle2 8s ease-in-out infinite;
+  }
+  
+  .animate-moveBgCircle3 {
+    animation: moveBgCircle3 12s ease-in-out infinite;
+  }
+  
